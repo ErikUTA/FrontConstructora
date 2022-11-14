@@ -1,0 +1,67 @@
+.MuiPaper-root {
+    width: auto;
+    height: 80%;
+    padding: 0%;
+    border-radius: 1px !important;
+}
+
+.MuiDialogTitle-root {
+    padding: 0px !important;
+}
+
+.MuiDialogContentText-root {
+    height: 96.4%;
+}
+
+.MuiDialogContent-root {
+    padding: 0% !important;
+}
+
+.modal-title {
+    height: 10%;
+    background: #1746A2;
+    color: white;
+    padding: 0px;
+}
+
+.modal-content {
+    height: 90%;
+}
+
+.img-modal {
+    width: 500px;
+    height: 250px;
+    position: relative;
+    bottom: 20px;
+}
+
+.img-container {
+    display: block !important;
+    height: 100%;
+}
+
+.btn-modal {
+    background: #1746A2 !important;
+    color: white !important;    
+    width: 100%;
+    height: 50px !important;
+    border-radius: 0px !important;
+}
+
+.btn-modal:hover {
+    background: #0c3077 !important;
+}
+
+.p-modal {
+    width: 100%;
+    text-align: center;
+}
+
+.mt {
+    margin-top: 4% !important;
+}
+
+.bottom {
+    position: relative !important;
+    top: 16.6% !important;
+}

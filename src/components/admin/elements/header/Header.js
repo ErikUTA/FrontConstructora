@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-export default function NavBar(props) {
+export default function Header(props) {
 
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
@@ -25,16 +25,17 @@ export default function NavBar(props) {
             x: 0,
             duration: 2
         });
-    }, []);     
+    }, []); 
+    
+    const Logout = () => {
+        localStorage.removeItem("TOKEN");
+        window.location.href = '/login';
+    }
  
     return (
         <Grid container className='nav' style={{backgroundImage: `url(${props.img})`}}>
             <Grid container className='nav-menu-container right'>
-                <a href="/" className="nav-menu-elements center">Inicio</a>
-                <a href="/appointments" className="nav-menu-elements center">Agenda una cita</a>
-                <a href="/maintenance" className="nav-menu-elements center">Solicitar mantenimiento</a>
-                <a href="/about" className="nav-menu-elements center">Acerca de</a>
-                <a href="/login" className="nav-menu-elements center">Login</a>              
+                <button className="nav-menu-elements center" onClick={Logout}>Logout</button>              
             </Grid>      
         </Grid>
     )

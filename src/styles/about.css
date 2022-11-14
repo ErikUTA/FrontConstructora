@@ -1,0 +1,13 @@
+.about {
+    padding: 5%;
+    /* margin: 5%; */
+    width: 100%;
+} 
+
+.text-about {
+    background: white;
+    width: 90%;
+    margin: 2%;
+    padding: 5%;
+    text-align: justify;
+}

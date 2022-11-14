@@ -1,6 +1,6 @@
-.footer {
+.footer-admin {
     transition: all 0.5s;
-    background: #1746A2;
+    background: #4C0033;
     height: 200px;
     bottom: 0px;
     display: flex !important;
@@ -8,9 +8,4 @@
     align-items: center;
     color: white;
     width: 100%;
-}
-
-.icon-footer {
-    margin: 0% 10px;
-    cursor: pointer;
 }

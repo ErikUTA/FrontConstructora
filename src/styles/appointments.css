@@ -1,0 +1,51 @@
+.appointments {
+    width: 100%;
+    padding: 5%;
+}
+
+.appointments-container {
+    background: white;
+    width: 100%;
+    padding: 5%;
+}
+
+.textField > .MuiOutlinedInput-root {
+    border-radius: 15px !important;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.container-input {
+    display: block !important;
+    font-family: 'Poppins' !important;
+}
+
+.c-input {
+    width: 100%;
+    padding: 4% 0% 0% 0%;
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: 8rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 100%;
+}
+
+.textArea {
+    width: 98%;
+    height: 200px;
+    border-radius: 15px;
+    padding: 1% 1%;
+    margin-top: 1%;
+    font-family: "Poppins";
+}
+
+.btn-send {
+    background: #0c3077 !important;
+    width: 10% !important;
+    border-radius: 20px !important;
+    color: white !important;
+    margin-top: 2% !important;
+}

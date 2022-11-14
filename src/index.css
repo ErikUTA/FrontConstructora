@@ -14,6 +14,56 @@ code {
 
 html {
   scroll-behavior: smooth;
+  background: #DFF6FF;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+html::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+html::-webkit-scrollbar:vertical {
+  width:18px;
+  background: #06283d25;
+}
+
+html::-webkit-scrollbar-button:increment,html::-webkit-scrollbar-button {
+  display: none;
+} 
+
+html::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #06283D;
+  border-radius: 20px;
+  border: 3px solid white;
+}
+
+html::-webkit-scrollbar-track {
+  border-radius: 10px;  
+}
+
+.logo {
+  border-radius: 20px;
 }
 
 @import 'styles/login.css';
@@ -22,3 +72,7 @@ html {
 @import 'styles/notfound.css';
 @import 'styles/carrousel.css';
 @import 'styles/footer.css';
+@import 'styles/about.css';
+@import 'styles/appointments.css';
+@import 'styles/modal.css';
+@import 'styles/footer-admin.css';

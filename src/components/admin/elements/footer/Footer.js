@@ -5,7 +5,7 @@ export default function Footer() {
 
     return (
         <>
-            <Grid container className="footer">
+            <Grid container className="footer-admin">
                 <Grid item style={{display: 'block'}}>
                     <div style={{display: 'flex', justifyContent: 'center'}}>
                         <div className="icon-footer">
