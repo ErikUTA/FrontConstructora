@@ -12,10 +12,16 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
     "formsy-react": "^2.2.7",
+<<<<<<< HEAD
     "fuse.js": "^6.6.2",
     "gsap": "^3.11.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+=======
+    "fuse.js": "^3.2.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+>>>>>>> 3b0a9ff47168bd6f68c78575e697547416190bf2
     "react-fuse": "^0.2.0",
     "react-redux": "^8.0.4",
     "react-responsive-carousel": "^3.2.23",
